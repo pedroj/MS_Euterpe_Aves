@@ -1,0 +1,59 @@
+plant	sp	code	pdisp	frv	vis	crd	qc
+Virola	Aburria jacutinga	Abujac	0.8333	6.00	0.129	0.0581	0.6468
+Virola	Baryphthengus ruficapillus	Barruf	1.0000	1.00	0.517	0.0465	0.5175
+Virola	Orthogonys chloricterus	Ortchl	0.5000	1.00	0.259	0.0116	0.1294
+Virola	Ramphastos sp.	Ramsp.	1.0000	1.00	0.129	0.0116	0.1294
+Virola	Ramphastos vitelinus	Ramvit	1.0000	1.00	0.129	0.0116	0.1294
+Virola	Selenidera maculirostris	Selmac	1.0000	1.00	0.776	0.0698	0.7762
+Virola	Tersina virides	Tervir	0.0000	1.00	1.035	0.0000	0.0000
+Virola	Thraupis palmarum	Thrpal	0.0000	1.00	0.259	0.0000	0.0000
+Virola	Trogon viridis	Trovir	1.0000	1.00	3.364	0.3023	3.3635
+Virola	Turdus albicolis	Turalb	0.6000	1.67	0.388	0.0349	0.3881
+Virola	Turdus flavipes	Turfla	0.7714	1.52	2.975	0.3140	3.4929
+Virola	Turdus leucomelas	Turleu	0.4444	3.00	0.776	0.0930	1.0349
+Virola	Turdus rufiventris	Turruf	1.0000	1.00	0.259	0.0233	0.2587
+Virola	Turdus sp.	Tursp.	0.4000	1.00	0.647	0.0233	0.2587
+Sloanea	Tangara sp.	Tansp.	1.0000	1.00	0.357	0.0096	0.35714
+Sloanea	Atilla rufus	Atiruf	0.5000	4.50	0.714	0.0865	0.80357
+Sloanea	Brotogeris tirica	Brotir	1.0000	2.00	0.357	0.0192	0.71429
+Sloanea	sp1	sp1	0.5000	0.50	0.714	0.0096	0.08929
+Sloanea	Dacnis cayana	Daccay	0.3333	1.67	1.071	0.0481	0.19841
+Sloanea	Euphonia pectoralis	Euppec	0.2500	2.75	1.429	0.1058	0.24554
+Sloanea	Euphonia sp.	Eupsp.	0.2500	3.00	1.429	0.1154	0.26786
+Sloanea	Habia rubica	Habrub	0.5000	5.50	0.714	0.1058	0.98214
+Sloanea	sp2	sp2	1.0000	1.00	0.357	0.0096	0.35714
+Sloanea	Orthogonys chloricterus	Ortchl	1.0000	3.00	0.357	0.0288	1.07143
+Sloanea	Pachyramphus castaneus	Paccas	0.2000	1.00	0.357	0.0096	0.07143
+Sloanea	Parulidade	Parsp.	0.2500	0.75	1.429	0.0288	0.06696
+Sloanea	sp3	sp3	1.0000	1.00	0.357	0.0096	0.35714
+Sloanea	Saltator fuliginosus	Salful	0.5000	1.00	0.714	0.0192	0.17857
+Sloanea	Selenidera maculirostris	Selmac	0.1429	1.43	2.500	0.0962	0.07289
+Sloanea	Tachyphonus coronatus	Taccor	0.5000	1.50	0.714	0.0288	0.26786
+Sloanea	Tangara cayana	Tancay	0.5000	1.00	0.714	0.0192	0.17857
+Sloanea	Tangara cyanocephala	Tancya	0.5000	4.00	0.714	0.0769	0.71429
+Sloanea	Tangara seledon	Tansel	0.3333	2.33	1.071	0.0673	0.27778
+Sloanea	Thraupis cyanoptera	Thrcya	0.5000	1.50	0.714	0.0288	0.26786
+Sloanea	Turdus flavipes	Turfla	0.3333	1.00	1.071	0.0288	0.11905
+Sloanea	Turdus leucomelas	Turleu	1.0000	3.00	0.357	0.0288	1.07143
+Sloanea	Tytira cayana	Tytcay	1.0000	2.00	0.357	0.0192	0.71429
+Euterpe	Procnias nudicollis	Pronud	0.8980	8.80	0.161	0.0602	1.41275
+Euterpe	Orthogonys chloricterus	Ortchl	0.0000	0.00	0.064	0.0000	0.00000
+Euterpe	Pyroderus scutatus	Pyrscu	1.0000	1.17	0.193	0.0096	0.22476
+Euterpe	Turdus albicollis	Turalb	0.9182	1.94	1.670	0.1382	3.24290
+Euterpe	Turdus flavipes	Turfla	0.9709	1.80	2.986	0.2285	5.36202
+Euterpe	Ramphastos vitellinus	Ramvit	1.0000	8.00	0.032	0.0109	0.25686
+Euterpe	Ramphastos dicolorus	Ramdic	0.8571	4.00	0.096	0.0164	0.38529
+Euterpe	Trogon viridis	Trovir	1.0000	1.03	2.344	0.1026	2.40809
+Euterpe	Tangara sp.	Tansp.	1.0000	1.00	0.032	0.0014	0.03211
+Euterpe	Selenidera maculirostris	Selmac	0.9880	6.31	0.835	0.2244	5.26569
+Euterpe	Turdus sp.	Tursp.	1.0000	1.33	0.096	0.0055	0.12843
+Euterpe	Baryphthengus ruficapillus	Barruf	1.0000	1.53	0.610	0.0397	0.93113
+Euterpe	Turdus leucomelas	Turleu	0.8750	1.75	0.128	0.0096	0.22476
+Euterpe	Aburria jacutinga	Abujac	1.0000	10.86	0.225	0.1040	2.44020
+Euterpe	Brotogeris tirica	Brotir	1.0000	1.00	0.064	0.0027	0.06422
+Euterpe	Pitangus sulphuratus	Pitsul	1.0000	2.00	0.032	0.0027	0.06422
+Euterpe	Pyrrhura frontalis	Pyrfro	1.0000	6.50	0.064	0.0178	0.41740
+Euterpe	Tachyphonus coronatus	Taccor	1.0000	1.00	0.064	0.0027	0.06422
+Euterpe	Tangara seledon	Tansel	0.1667	0.20	0.161	0.0014	0.03211
+Euterpe	Turdus amaurochalinus	Turama	0.8333	5.00	0.064	0.0137	0.32108
+Euterpe	Turdus rufiventris	Turruf	1.0000	2.00	0.096	0.0082	0.19265

@@ -1,0 +1,119 @@
+> porambiente
+          Aburria_jacutinga Amazilia_fimbriata Anabazenops_fuscus Attila_rufus Automolus_leucophthalmus
+com_bambu                 1                  1                  3            4                        4
+sem_bambu                 1                  0                  6            1                       10
+          Basileuterus_culicivorus Basileuterus_leucoblepharus Batara_cinerea Brotogeris_tirica Cacicus_haemorrhous
+com_bambu                        3                           1              4                 4                  12
+sem_bambu                        1                           0              2                 3                  19
+          Camphylorhamphus_falcularius Celeus_flavescens Chamaeza_meruloides Chiroxiphia_caudata Coereba_flaveola
+com_bambu                            0                 1                  12                  12                1
+sem_bambu                            1                 0                  12                   6                0
+          Crypturellus_obsoletus Cyclarhis_gujanensis Dendrocolaptes_platyrostris Drymophila_ferruginea Drymophila_malura
+com_bambu                      2                    6                           2                    21                 1
+sem_bambu                      4                    3                           2                    10                 1
+          Drymophila_ochropyga Drymophila_rourei Dryocopus_lineatus Dysithamnus_mentalis Dysithamnus_stictothorax
+com_bambu                    4                 1                  1                   19                       12
+sem_bambu                    0                 0                  0                   18                        4
+          Euphonia_pectoralis Euphonia_violacea Grallaria_varia Habia_rubica Haplospiza_unicolor Hemitriccus_diops
+com_bambu                  16                 1               1           22                   2                 3
+sem_bambu                  13                 0               8           20                   0                 0
+          Hylopezus_nattereri Lathrotriccus_euleri Lipaugus_lanioides Mackenziaena_severa Megarynchus_pitangua
+com_bambu                   1                    3                 14                   4                    1
+sem_bambu                   0                    0                  9                   1                    0
+          Merulaxis_ater Myiodynastes_maculatus Myrmeciza_loricata Odontophorus_capueira Pachyramphus_polychopterus
+com_bambu              5                      4                  3                     3                          0
+sem_bambu              2                      1                  8                     6                          1
+          Patagioenas_plumbea Penelope_obscura Phaethornis_squalidus Phylidor_atricapillus Piaya_cayana Picumnus_sp
+com_bambu                   7                1                     1                     9            2           2
+sem_bambu                  14                0                     0                     4            4           3
+          Pionus_maximiliani Procnias_nudicollis Pyriglena_leucoptera Pyrrhura_frontalis Ramphastos_dicolorus
+com_bambu                  1                   5                    7                  0                    1
+sem_bambu                  0                  19                    0                  1                    1
+          Ramphodon_naevius Saltator_fuliginosus Schiffornis_virescens Sclerurus_scansor Selenidera_maculirostris
+com_bambu                51                   23                     0                 2                        4
+sem_bambu                40                   41                     2                 4                        1
+          Sittasomus_griseicapillus Sporophila_frontalis Synallaxis_ruficapilla Synallaxis_spixi Tachyphonus_coronatus
+com_bambu                         1                    2                      2                2                     4
+sem_bambu                         0                    0                      0                0                     5
+          Tangara_cyanocephala Tangara_seledon Thraupis_cyanoptera Thraupis_palmarum Tinamus_solitarius
+com_bambu                    0               1                   1                 1                 15
+sem_bambu                    1               1                   1                 0                 18
+          Tolmomyias_sulphurescens Trogon_viridis Turdus_albicollis Turdus_flavipes Turdus_rufiventris
+com_bambu                        7             28                20               4                  3
+sem_bambu                        7             32                39               9                  6
+          Xiphocolaptes_albicollis
+com_bambu                        0
+sem_bambu                        1
+## Riqueza de espécies (S)
+> S <- specnumber(porambiente)
+> S
+com_bambu sem_bambu 
+       67        51 
+       ## Abundância de espécies (N)
+> N <- colSums(porambiente)
+> N
+           Aburria_jacutinga           Amazilia_fimbriata           Anabazenops_fuscus                 Attila_rufus 
+                           2                            1                            9                            5 
+    Automolus_leucophthalmus     Basileuterus_culicivorus  Basileuterus_leucoblepharus               Batara_cinerea 
+                          14                            4                            1                            6 
+           Brotogeris_tirica          Cacicus_haemorrhous Camphylorhamphus_falcularius            Celeus_flavescens 
+                           7                           31                            1                            1 
+         Chamaeza_meruloides          Chiroxiphia_caudata             Coereba_flaveola       Crypturellus_obsoletus 
+                          24                           18                            1                            6 
+        Cyclarhis_gujanensis  Dendrocolaptes_platyrostris        Drymophila_ferruginea            Drymophila_malura 
+                           9                            4                           31                            2 
+        Drymophila_ochropyga            Drymophila_rourei           Dryocopus_lineatus         Dysithamnus_mentalis 
+                           4                            1                            1                           37 
+    Dysithamnus_stictothorax          Euphonia_pectoralis            Euphonia_violacea              Grallaria_varia 
+                          16                           29                            1                            9 
+                Habia_rubica          Haplospiza_unicolor            Hemitriccus_diops          Hylopezus_nattereri 
+                          42                            2                            3                            1 
+        Lathrotriccus_euleri           Lipaugus_lanioides          Mackenziaena_severa         Megarynchus_pitangua 
+                           3                           23                            5                            1 
+              Merulaxis_ater       Myiodynastes_maculatus           Myrmeciza_loricata        Odontophorus_capueira 
+                           7                            5                           11                            9 
+  Pachyramphus_polychopterus          Patagioenas_plumbea             Penelope_obscura        Phaethornis_squalidus 
+                           1                           21                            1                            1 
+       Phylidor_atricapillus                 Piaya_cayana                  Picumnus_sp           Pionus_maximiliani 
+                          13                            6                            5                            1 
+         Procnias_nudicollis         Pyriglena_leucoptera           Pyrrhura_frontalis         Ramphastos_dicolorus 
+                          24                            7                            1                            2 
+           Ramphodon_naevius         Saltator_fuliginosus        Schiffornis_virescens            Sclerurus_scansor 
+                          91                           64                            2                            6 
+    Selenidera_maculirostris    Sittasomus_griseicapillus         Sporophila_frontalis       Synallaxis_ruficapilla 
+                           5                            1                            2                            2 
+            Synallaxis_spixi        Tachyphonus_coronatus         Tangara_cyanocephala              Tangara_seledon 
+                           2                            9                            1                            2 
+         Thraupis_cyanoptera            Thraupis_palmarum           Tinamus_solitarius     Tolmomyias_sulphurescens 
+                           2                            1                           33                           14 
+              Trogon_viridis            Turdus_albicollis              Turdus_flavipes           Turdus_rufiventris 
+                          60                           59                           13                            9 
+    Xiphocolaptes_albicollis 
+                           1 
+## Shannon (H')
+### Considera que os indivíduos são amostrados em uma população 'infinitamente grande'
+### Considera que todas as espécies estão representadas na amostra
+> H <- diversity(porambiente, index="shannon")
+> H
+com_bambu sem_bambu 
+ 3.596129  3.348908 
+ ## Eqüitatividade (evenness) de Pielou (J)
+### Porque duas amostras com valores de Shannon (H') semelhantes podem ser muito diferentes em abundância e riqueza
+> J<- H/log(S)
+> J
+com_bambu sem_bambu 
+0.8552655 0.8517438 
+## Índice de Simpson (D)
+### Probabilidade de que indivíduos quaisquer amostrados (em uma comunidade infinitamente grande) pertençam
+### a diferentes espécies
+> D <- diversity(porambiente, index="simpson")
+> D
+com_bambu sem_bambu 
+0.9581883 0.9509074 
+## Rarefação
+### Número esperado de de espécies por (sub)amostra
+> rare <- rarefy(porambiente,2)
+> rare
+com_bambu sem_bambu 
+ 1.960464  1.953140 
+

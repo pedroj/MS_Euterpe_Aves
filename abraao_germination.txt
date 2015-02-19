@@ -1,0 +1,7 @@
+species	n	ngerm	pgerm	bodymass
+Aburria cujubi	135	21	0.16	1250.0
+Pteroglossus bailloni	83	45	0.54	139.0
+Ramphastos dicolorus	107	29	0.27	400.0
+Ramphastos toco	98	32	0.33	540.0
+Ramphastos vitellinus	50	15	0.31	361.5
+Turdus rufiventris	68	43	0.63	69.5

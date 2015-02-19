@@ -1,0 +1,154 @@
+> booteval.relimp(boot1)
+# EUTERPE
+Response variable: qc 
+Total response variance: 2.80199 
+Analysis based on 21 observations 
+
+3 Regressors: 
+vis frv pdisp 
+Proportion of variance explained by model: 77.21%
+Metrics are not normalized (rela=FALSE). 
+
+Relative importance metrics: 
+
+             lmg
+vis   0.65051132
+frv   0.09981678
+pdisp 0.02172472
+
+Average coefficients for different model sizes: 
+
+             1X       2Xs        3Xs
+vis   1.5935843 1.6439961  1.7399471
+frv   0.1349262 0.1603384  0.2168066
+pdisp 1.3469851 0.7915457 -0.2093219
+
+ 
+ Confidence interval information ( 1000 bootstrap replicates, bty= perc ): 
+Relative Contributions with confidence intervals: 
+ 
+                         Lower  Upper
+          percentage 0.95 0.95   0.95  
+vis.lmg   0.6505     A__  0.3204 0.9332
+frv.lmg   0.0998     _BC  0.0124 0.3541
+pdisp.lmg 0.0217     _BC  0.0023 0.0758
+
+Letters indicate the ranks covered by bootstrap CIs. 
+(Rank bootstrap confidence intervals always obtained by percentile method) 
+CAUTION: Bootstrap confidence intervals can be somewhat liberal. 
+
+ 
+ Differences between Relative Contributions: 
+ 
+                              Lower   Upper
+              difference 0.95 0.95    0.95   
+vis-frv.lmg    0.5507         -0.0047  0.9113
+vis-pdisp.lmg  0.6288     *    0.2890  0.9198
+frv-pdisp.lmg  0.0781         -0.0187  0.3217
+
+* indicates that CI for difference does not include 0. 
+CAUTION: Bootstrap confidence intervals can be somewhat liberal. 
+
+#-----------------------------------------------------------------------------
+# VIROLA
+Response variable: qc 
+Total response variance: 1.336834 
+Analysis based on 14 observations 
+
+3 Regressors: 
+vis frv pdisp 
+Proportion of variance explained by model: 95.9%
+Metrics are not normalized (rela=FALSE). 
+
+Relative importance metrics: 
+
+             lmg
+vis   0.88939666
+frv   0.01835972
+pdisp 0.05121527
+
+Average coefficients for different model sizes: 
+
+               1X        2Xs       3Xs
+vis    1.03329927 1.05361627 1.0688138
+frv   -0.04737033 0.03587992 0.1251786
+pdisp  0.85856983 0.75515929 0.5321165
+
+ 
+ Confidence interval information ( 1000 bootstrap replicates, bty= perc ): 
+Relative Contributions with confidence intervals: 
+ 
+                         Lower  Upper
+          percentage 0.95 0.95   0.95  
+vis.lmg   0.8894     ABC  0.1259 0.9783
+frv.lmg   0.0184     ABC  0.0073 0.3458
+pdisp.lmg 0.0512     ABC  0.0020 0.2866
+
+Letters indicate the ranks covered by bootstrap CIs. 
+(Rank bootstrap confidence intervals always obtained by percentile method) 
+CAUTION: Bootstrap confidence intervals can be somewhat liberal. 
+
+ 
+ Differences between Relative Contributions: 
+ 
+                              Lower   Upper
+              difference 0.95 0.95    0.95   
+vis-frv.lmg    0.8710         -0.1535  0.9664
+vis-pdisp.lmg  0.8382         -0.1033  0.9727
+frv-pdisp.lmg -0.0329         -0.1871  0.2311
+
+* indicates that CI for difference does not include 0. 
+CAUTION: Bootstrap confidence intervals can be somewhat liberal. 
+
+#-----------------------------------------------------------------------------
+> booteval.relimp(boot3)
+# SLOANEA
+Response variable: qc 
+Total response variance: 0.1106299 
+Analysis based on 23 observations 
+
+3 Regressors: 
+vis frv pdisp 
+Proportion of variance explained by model: 92.17%
+Metrics are not normalized (rela=FALSE). 
+
+Relative importance metrics: 
+
+            lmg
+vis   0.1108323
+frv   0.5538547
+pdisp 0.2570034
+
+Average coefficients for different model sizes: 
+
+              1X        2Xs         3Xs
+vis   -0.3049047 -0.1655618 -0.01384288
+frv    0.1892236  0.1877591  0.18884189
+pdisp  0.6463912  0.6226991  0.62782238
+
+ 
+ Confidence interval information ( 1000 bootstrap replicates, bty= perc ): 
+Relative Contributions with confidence intervals: 
+ 
+                         Lower  Upper
+          percentage 0.95 0.95   0.95  
+vis.lmg   0.1108     _BC  0.0514 0.2226
+frv.lmg   0.5539     AB_  0.3415 0.7602
+pdisp.lmg 0.2570     ABC  0.1077 0.4363
+
+Letters indicate the ranks covered by bootstrap CIs. 
+(Rank bootstrap confidence intervals always obtained by percentile method) 
+CAUTION: Bootstrap confidence intervals can be somewhat liberal. 
+
+ 
+ Differences between Relative Contributions: 
+ 
+                              Lower   Upper
+              difference 0.95 0.95    0.95   
+vis-frv.lmg   -0.4430     *   -0.6909 -0.1330
+vis-pdisp.lmg -0.1462         -0.3135  0.0120
+frv-pdisp.lmg  0.2969         -0.0804  0.6468
+
+* indicates that CI for difference does not include 0. 
+CAUTION: Bootstrap confidence intervals can be somewhat liberal. 
+
