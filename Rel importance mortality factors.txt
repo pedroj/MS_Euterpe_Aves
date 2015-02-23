@@ -1,0 +1,69 @@
+> t1 <- subset(eut.stage, mhab=="B")
+> t2 <- subset(eut.stage, mhab=="SB")
+> # BAMBOO
+> calc.relimp(sow-sdl.surv~M1+M2+M3+M4+M5+M6,data=t1,type=c("lmg","last","first","pratt"),rela=TRUE)
+Response variable: sow - sdl.surv 
+Total response variance: 46.77706 
+Analysis based on 71 observations 
+
+6 Regressors: 
+M1 M2 M3 M4 M5 M6 
+Proportion of variance explained by model: 65.91%
+Metrics are normalized to sum to 100% (rela=TRUE). 
+
+Relative importance metrics: 
+
+          lmg       last      first      pratt
+M1 0.23745856 0.26301083 0.21068725  0.8511372
+M2 0.14152990 0.17436166 0.19828418 -0.8184313
+M3 0.16900436 0.18956264 0.16213858  0.2844115
+M4 0.09908682 0.16439917 0.05638423  0.2757245
+M5 0.19512598 0.08092616 0.33450033  0.3096689
+M6 0.15779439 0.12773953 0.03800543  0.0974892
+
+Average coefficients for different model sizes: 
+
+           1X        2Xs        3Xs        4Xs        5Xs        6Xs
+M1 -11.878418 -11.177621 -12.996055 -19.260409 -31.702651 -51.352430
+M2   9.343148   7.199199   3.108134  -5.246096 -19.694313 -41.269432
+M3 -29.507883 -26.558895 -25.111871 -27.971375 -37.593929 -55.391098
+M4  -8.015629  -5.039231  -4.713290  -9.641986 -21.715152 -41.946576
+M5   7.264583   7.208754   7.057445   6.939104   6.969185   7.197021
+M6   5.734934  10.519188  13.511321  15.047981  15.666519  15.742743
+Warning message:
+In calc.relimp.formula(sow - sdl.surv ~ M1 + M2 + M3 + M4 + M5 +  :
+  9 observations deleted due to missingness
+> 
+> # NON BAMBOO
+> calc.relimp(sow-sdl.surv~M1+M2+M3+M4+M5+M6,data=t2,type=c("lmg","last","first","pratt"),rela=TRUE)
+Response variable: sow - sdl.surv 
+Total response variance: 13.94071 
+Analysis based on 58 observations 
+
+6 Regressors: 
+M1 M2 M3 M4 M5 M6 
+Proportion of variance explained by model: 46.69%
+Metrics are normalized to sum to 100% (rela=TRUE). 
+
+Relative importance metrics: 
+
+          lmg       last      first       pratt
+M1 0.20320062 0.02008691 0.28547052 -0.55611550
+M2 0.16748391 0.03999403 0.25226885  0.81799829
+M3 0.22433737 0.22876718 0.12019006  0.38332644
+M4 0.04800337 0.03961237 0.02356861 -0.17319794
+M5 0.29053925 0.44526296 0.30409493  0.46674837
+M6 0.06643547 0.22627656 0.01440703  0.06124034
+
+Average coefficients for different model sizes: 
+
+          1X       2Xs       3Xs        4Xs        5Xs       6Xs
+M1 -5.769913 -5.398456 -6.265551 -6.2916636 -3.4853033  8.432171
+M2  4.895587  4.307649  2.274621  0.7785785  1.7991565 11.908581
+M3 12.786441 15.421765 17.619310 19.6631236 22.0878984 30.592596
+M4 -2.192204 -1.491168 -2.150110 -2.1443601  0.4878463 12.085265
+M5  4.690994  4.522854  4.477861  4.5903386  4.8890216  5.401383
+M6  1.006638  1.191580  1.488815  1.8717040  2.3888471  3.209985
+Warning message:
+In calc.relimp.formula(sow - sdl.surv ~ M1 + M2 + M3 + M4 + M5 +  :
+  22 observations deleted due to missingness

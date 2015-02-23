@@ -40,8 +40,9 @@ scatterplot3d(vis,frv,crd, pch=16, highlight.3d=TRUE,type="h", main="3D Scatterp
 # New plot with effective no. of seeds dispersed per visit.
 # Pedro - Rio Claro 29 May 2014.
 # NOT-Log scaled axes. Using data for 3 species
-plot(vis,frv*pdisp,pch=c(19,1,8)[qc$plant],xlab="Visitation rate (/h)",
-    ylab="No. seeds dispersed per visit")
+plot(vis, frv*pdisp, pch=c(19,1,8)[qc$plant], 
+     xlab="Visitation rate (/h)",
+     ylab="No. seeds dispersed per visit")
 #, col = terrain.colors(4:8)[qc$plant]
 #text(vis, frv, plant, cex=0.6, pos=4, col="red")
 legend("topright", inset=.05, title="Plant species",
@@ -86,5 +87,5 @@ plot <- ggplot(data = qc, aes(x = vis, y = frv,
                colour=plant, fill = plant)) +
     geom_point() + 
     geom_polygon(data = hulls, alpha = 0.5) +
-    labs(x = "Efficiency", y = "Mandate")
+    labs(x = "Visitation rate (/h)", y = "No. seeds dispersed per visit")
 plot

@@ -1,0 +1,20 @@
+species    pcdB	pcrB	pcdNB	pcrNB
+Aburria jacutinga	2.440	0.09699	2.440	0.01647
+Baryphthengus ruficapillus	0.000	0.00000	0.000	0.00000
+Brotogeris tirica	0.448	0.00000	0.192	0.00000
+Orthogonys chloricterus	0.000	0.00000	0.000	0.00000
+Pitangus sulphuratus	0.000	0.00000	0.000	0.00000
+Procnias nudicollis	7.065	0.87995	26.847	0.56781
+Pyroderus scutatus	0.000	0.00000	0.000	0.00000
+Pyrrhura frontalis	0.000	0.00000	0.417	0.00000
+Ramphastos dicolorus	0.385	0.02755	0.385	0.00468
+Ramphastos vitellinus	0.000	0.00000	0.000	0.00000
+Selenidera maculirostris	31.596	3.93528	15.798	0.33413
+Tachyphonus coronatus	0.320	0.00000	0.448	0.00000
+Tangara seledon	0.064	0.00000	0.032	0.00000
+Trogon viridis	67.424	8.93368	84.280	1.89630
+Turdus albicollis	71.346	11.91121	149.178	4.22920
+Turdus amaurochalinus	0.000	0.00000	0.000	0.00000
+Turdus flavipes	21.448	3.58074	53.620	1.52013
+Turdus leucomelas	0.000	0.00000	0.000	0.00000
+Turdus rufiventris	0.579	0.09666	1.158	0.03283
