@@ -6,7 +6,8 @@
 rank<-read.table(pipe("pbpaste"),header=TRUE,dec=".",sep="\t")
 
 # Quant. component as product of three variables: visits, fruits/vis and 
-# prob. a touched fruit will be ingested
+# prob. a touched fruit will be ingested.
+# NOT RUN
 qc<-qc.virola$vis*qc.virola$frv*qc.virola$pdisp
 qc.virola<-cbind(qc.virola,qc)
 attach(qc)
@@ -32,10 +33,10 @@ text(3.0,0.3, "QC= 1.0", cex=0.6, pos=4, col="red")
 text(3.0,0.8, "QC= 5.0", cex=0.6, pos=4, col="red")
 text(3.0,1.5, "QC= 10.0", cex=0.6, pos=4, col="red")
 #text(3.0,2.2, "QC= 10.0", cex=0.6, pos=4, col="red")
-
+# NOT RUN
 #-------------------------------------------------------------------------
 library(scatterplot3d) 
-scatterplot3d(vis,frv,crd, pch=16, highlight.3d=TRUE, 
+scatterplot3d(vis, frv, crd, pch=16, highlight.3d=TRUE, 
               type="h", main="3D Scatterplot")
 #-------------------------------------------------------------------------
 # New plot with effective no. of seeds dispersed per visit.
@@ -60,9 +61,10 @@ df <- qc
 find_hull <- function(df) df[chull(df$vis, df$frv), ]
 hulls <- ddply(df, "plant", find_hull)
 
-plot <- ggplot(data = qc, aes(x = vis, y = frv, 
-               colour=plant, fill = plant)) +
-    geom_point() + 
-    geom_polygon(data = hulls, alpha = 0.5) +
+plot <- ggplot(data = qc, aes(x = log(vis+1), y = log(frv+1), 
+               colour=plant, fill = plant, shape=plant)) +
+    geom_point(size=4) + 
+    geom_text(aes(label= code), size=4, vjust=1.5) +
+    geom_polygon(data = hulls, alpha = 0.3) +
     labs(x = "Visitation rate (/h)", y = "No. seeds dispersed per visit")
 plot
