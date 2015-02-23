@@ -1,0 +1,31 @@
+# Data summary Euterpe assemblage. Debora MS.
+# LEGEND:
+# B = bamboo stands
+# NB = non-bamboo stands
+# GERM = proportion of germinated seeds
+# QC = quantitative component
+# Abundância = number os records of each bird species at each stand type
+# PCD = potential contribution to seed dispersal calculated as the product QC*Abundance
+# TP1 = transition probability from dispersed seed to emerging seedling (from the PPEES paper)
+# TP2 = transition probability from emerging seedling to established seedling (from the PPEES paper)
+# PCR = potential contribution to plant recruitment calculated as the product PCD*TP1*TP2
+fam	sp	bmass	gape	germ	qc	abundB	abundNB	pcdB	pcdNB	TP1B	TP1NB	TP2B	TP2NB	pcrB	pcrNB	pcdtB	pcdtNB	pcrtB	pcrtNB
+Cracidae	Aburria jacutinga	1250.0	24.00	0.15	2.000	1	1	2.440	2.440	0.374	0.144	0.265	0.045	0.09699	0.01647	0.38739	0.38739	0.04020	0.00709
+Momotidae	Baryphthengus ruficapillus	175.0	17.20	0.47	0.931	0	0	0.000	0.000	0.374	0.144	0.265	0.045	0.00000	0.00000	0.00000	0.00000	0.00000	0.00000
+Psittacidae	Brotogeris tirica	63.0	9.90	0.00	0.064	7	3	0.448	0.192	0.374	0.144	0.265	0.045	0.00000	0.00000	-0.34872	-0.71670	0.00000	0.00000
+Thraupidae	Orthogonys chloricterus	40.0	9.80	0.00	0.000	0	0	0.000	0.000	0.374	0.144	0.265	0.045	0.00000	0.00000	0.00000	0.00000	0.00000	0.00000
+Tyrannidae	Pitangus sulphuratus	61.0	15.50	0.63	0.064	0	0	0.000	0.000	0.374	0.144	0.265	0.045	0.00000	0.00000	0.00000	0.00000	0.00000	0.00000
+Cotingidae	Procnias nudicollis	174.0	24.50	0.47	1.000	5	19	7.065	26.847	0.374	0.144	0.265	0.045	0.87995	0.56781	0.84911	1.42890	0.27415	0.19529
+Cotingidae	Pyroderus scutatus	357.0	26.70	0.40	0.225	0	0	0.000	0.000	0.374	0.144	0.265	0.045	0.00000	0.00000	0.00000	0.00000	0.00000	0.00000
+Psittacidae	Pyrrhura frontalis	72.0	11.20	0.00	0.417	0	1	0.000	0.417	0.374	0.144	0.265	0.045	0.00000	0.00000	0.00000	-0.37986	0.00000	0.00000
+Ramphastidae	Ramphastos dicolorus	400.0	30.70	0.27	0.385	1	1	0.385	0.385	0.374	0.144	0.265	0.045	0.02755	0.00468	-0.41454	-0.41454	0.01180	0.00203
+Ramphastidae	Ramphastos vitellinus	361.5	31.00	0.30	0.257	0	0	0.000	0.000	0.374	0.144	0.265	0.045	0.00000	0.00000	0.00000	0.00000	0.00000	0.00000
+Ramphastidae	Selenidera maculirostris	160.0	25.20	0.47	5.266	6	3	31.596	15.798	0.374	0.144	0.265	0.045	3.93528	0.33413	1.49963	1.19860	0.69331	0.12520
+Thraupidae	Tachyphonus coronatus	29.3	9.10	0.00	0.064	5	7	0.320	0.448	0.374	0.144	0.265	0.045	0.00000	0.00000	-0.49485	-0.34872	0.00000	0.00000
+Thraupidae	Tangara seledon	18.7	7.00	0.00	0.032	2	1	0.064	0.032	0.374	0.144	0.265	0.045	0.00000	0.00000	-1.19382	-1.49485	0.00000	0.00000
+Trogonidae	Trogon viridis	87.6	19.60	0.50	2.000	28	35	67.424	84.280	0.374	0.144	0.265	0.045	8.93368	1.89630	1.82881	1.92572	0.99711	0.46184
+Turdidae	Turdus albicollis	54.1	11.20	0.63	3.000	22	46	71.346	149.178	0.374	0.144	0.265	0.045	11.91121	4.22920	1.85337	2.17370	1.11097	0.71843
+Turdidae	Turdus amaurochalinus	63.1	11.40	0.63	0.321	0	0	0.000	0.000	0.374	0.144	0.265	0.045	0.00000	0.00000	0.00000	0.00000	0.00000	0.00000
+Turdidae	Turdus flavipes	60.0	12.10	0.63	5.000	4	10	21.448	53.620	0.374	0.144	0.265	0.045	3.58074	1.52013	1.33139	1.72933	0.66094	0.40142
+Turdidae	Turdus leucomelas	68.6	11.90	0.63	0.225	0	0	0.000	0.000	0.374	0.144	0.265	0.045	0.00000	0.00000	0.00000	0.00000	0.00000	0.00000
+Turdidae	Turdus rufiventris	69.5	12.10	0.63	0.193	3	6	0.579	1.158	0.374	0.144	0.265	0.045	0.09666	0.03283	-0.23732	0.06371	0.04007	0.01403
