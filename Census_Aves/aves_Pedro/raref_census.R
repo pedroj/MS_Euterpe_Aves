@@ -4,9 +4,9 @@
 ##########################################################################
 # Uses data matrices with censues as rows and species as columns.
 library(vegan)
-censusB <-read.table("censusB.txt",header=TRUE,sep="\t",dec=".",na.strings="NA")
-censusSB <-read.table("censusSB.txt",header=TRUE,sep="\t",dec=".",na.strings="NA")
-census <-read.table("censusBSB.txt",header=TRUE,sep="\t",dec=".",na.strings="NA")
+censusB <-read.table("./Census_Aves/aves_Pedro/censusB.txt",header=TRUE,sep="\t",dec=".",na.strings="NA")
+censusSB <-read.table("./Census_Aves/aves_Pedro/censusSB.txt",header=TRUE,sep="\t",dec=".",na.strings="NA")
+census <-read.table("./Census_Aves/aves_Pedro/censusBSB.txt",header=TRUE,sep="\t",dec=".",na.strings="NA")
 #-------------------------------------------------------------------------
 # Code for BAMBU
 names(censusB)
@@ -36,7 +36,7 @@ diversity(tcensusB,"simpson")
 diversity(tcensusSB,"simpson")
 # total<-specaccum(tcensusB)
 totalB<-specaccum(tcensusB,"random")
-totalSB<-specaccum(tcensusSB)
+totalSB<-specaccum(tcensusSB,"random")
 total<-specaccum(tcensusB,"rarefaction")
 
 par(mfrow=c(1,2))
