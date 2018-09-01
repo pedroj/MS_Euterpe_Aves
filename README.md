@@ -1,6 +1,6 @@
 # Avian frugivory and tree regeneration in the Atlantic rainforest (SE Brazil)
 
-This are datasets and analyses accompanying the papers:
+These are datasets and analyses accompanying the papers:
 - Rother, D.C., Jordano, P., Rodrigues, R.R. & Pizo, M.A. (2013) Demographic bottlenecks in tropical plant regeneration: A comparative analysis of causal influences. _Perspectives in Plant Ecology Evolution and Systematics_, **15**, 86–96.
 - Rother, D.C., Pizo, M.A. & Jordano, P. (2015a) Variation in seed dispersal effectiveness: the redundancy of consequences in diversified tropical frugivore assemblages. _Oikos_, **125**, 336–342.
 - Rother, D.C., Pizo, M.A., Siqueira, T., Rodrigues, R.R. & Jordano, P. (2015b) Community-wide spatial and temporal discordances of seed-seedling shadows in a tropical rainforest (ed P Adam). _PLoS ONE_, **10**, e0123346–12.
